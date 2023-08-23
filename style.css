@@ -568,9 +568,11 @@ footer span a:hover{
     .menu-btn{
         display: block;
         z-index: 999;
+        color: white;
     }
     .menu-btn i.active:before{
         content: "\f00d";
+        color: white;
     }
     .navbar .menu{
         position: fixed;
@@ -579,20 +581,24 @@ footer span a:hover{
         left: -100%;
         top: 0;
         background: #111;
+        /* color: white; */
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
     }
     .navbar .menu.active{
         left: 0;
+        /* color: white; */
     }
     .navbar .menu li{
         display: block;
+        /* color: white; */
     }
     .navbar .menu li a{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+        color: white;
     }
     .home .home-content .text-2{
         font-size: 70px;
